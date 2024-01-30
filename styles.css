@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+
+}
+
+body {
+    background-color: #333;
+
+}
+
+ul{
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+h2{
+    display: block;
+    padding: 20px 25px;
+    font-size: 46px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+ul.dropdown li{
+    display: block;
+    background-color: #333;
+    margin : 2px 0px;
+}
+
+ul.dropdown {
+    width: auto;
+    background: #00ffc0;
+    position: absolute;
+ 
+}
+
+ul li a:hover {
+    background: #222;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+ 
